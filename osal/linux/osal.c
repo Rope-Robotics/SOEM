@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <osal.h>
+#include <sched.h>
 
 #define USECS_PER_SEC     1000000
 
