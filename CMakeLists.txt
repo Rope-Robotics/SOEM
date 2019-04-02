@@ -4,7 +4,7 @@ project(soem)
 
 find_package(catkin QUIET)
 if(catkin_FOUND)
-  catkin_package( INCLUDE_DIRS soem osal oshw/linux
+  catkin_package( INCLUDE_DIRS soem osal oshw/linux ${CMAKE_CURRENT_SOURCE_DIR}
                   LIBRARIES soem
                   )
 endif()

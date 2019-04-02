@@ -8,6 +8,6 @@ install(TARGETS osal
   RUNTIME DESTINATION bin
   LIBRARY DESTINATION lib )
 
-install(FILES osal.h
+install(FILES osal.h linux/osal_defs.h
         DESTINATION include/soem )
 
